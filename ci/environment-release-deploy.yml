@@ -1,0 +1,14 @@
+name: bk-release-deploy
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+
+  # deploy
+  - anaconda-client
+  - boto
+  - colorama
+  - nodejs 16.*
+  - setuptools
+  - twine
+  - yaml

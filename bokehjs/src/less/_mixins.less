@@ -1,0 +1,20 @@
+.no-user-select() {
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+.placeholder(@color) {
+  &::placeholder,
+  &:-ms-input-placeholder,
+  &::-moz-placeholder,
+  &::-webkit-input-placeholder  {
+    color: @color;
+    opacity: 1;
+  }
+}
+
+.bring-to-front() {
+  z-index: 100;
+}
